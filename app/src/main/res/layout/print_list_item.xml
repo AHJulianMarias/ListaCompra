@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+    <!-- Nombre del producto y sección -->
+    <TextView
+        android:id="@+id/item_name_section"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nombre - Sección"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        android:fontFamily="sans-serif-medium" />
+
+    <!-- Cantidad -->
+    <TextView
+        android:id="@+id/item_quantity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cantidad"
+        android:textColor="#BC7F61"
+        android:textSize="14sp"
+        android:fontFamily="sans-serif" />
+
+    <!-- Perecedero -->
+    <TextView
+        android:id="@+id/item_perecedero"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Perecedero"
+        android:textColor="#000000"
+        android:textSize="14sp"
+        android:fontFamily="sans-serif" />
+</LinearLayout>

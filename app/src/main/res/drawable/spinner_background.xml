@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Fondo del Spinner -->
+    <item>
+        <shape>
+            <solid android:color="#F8E9E1" /> <!-- Color de fondo -->
+            <corners android:radius="8dp" />  <!-- Bordes redondeados -->
+            <stroke
+                android:width="2dp"
+                android:color="#D1BFB3" /> <!-- Borde del Spinner -->
+        </shape>
+    </item>
+</layer-list>
